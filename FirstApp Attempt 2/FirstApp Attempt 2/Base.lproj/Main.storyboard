@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FirstApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FirstApp_Attempt_2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,39 +21,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDN-me-y3K">
-                                <rect key="frame" x="51" y="121" width="261" height="425"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROL-dH-OWr">
+                                <rect key="frame" x="16" y="310" width="347" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Press to see the BEAR!"/>
+                                <state key="normal" title="Click to see if The Bear Mans loves you..."/>
                                 <connections>
-                                    <action selector="MakeMeNotSoUncool:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ado-0r-Oh9"/>
-                                    <action selector="makemenotsouncool:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X4a-hf-ypq"/>
+                                    <action selector="MakeMeNotSoUncool:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e88-lL-DQu"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="15726932_10154699469851083_2188114426628932004_n" translatesAutoresizingMaskIntoConstraints="NO" id="xMf-qU-CgF">
-                                <rect key="frame" x="76" y="396" width="222" height="271"/>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Love-you" translatesAutoresizingMaskIntoConstraints="NO" id="5ac-lY-mUp">
+                                <rect key="frame" x="0.0" y="68" width="375" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Love-you" translatesAutoresizingMaskIntoConstraints="NO" id="xu7-c9-09t">
-                                <rect key="frame" x="-10" y="-178" width="395" height="487"/>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BearMan" translatesAutoresizingMaskIntoConstraints="NO" id="8bI-ug-Bua">
+                                <rect key="frame" x="-96" y="413" width="590" height="254"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="CoolBG" destination="xMf-qU-CgF" id="z3L-Yf-Vhd"/>
-                        <outlet property="Coollogo" destination="xu7-c9-09t" id="FND-Ff-W1e"/>
-                        <outlet property="UnCoolButton" destination="xMf-qU-CgF" id="fiu-ho-Mte"/>
+                        <outlet property="CoolBG" destination="8bI-ug-Bua" id="JkI-Yw-Ypp"/>
+                        <outlet property="CoolButton" destination="ROL-dH-OWr" id="Isy-1M-PZf"/>
+                        <outlet property="CoolLogo" destination="5ac-lY-mUp" id="3i4-q3-2h6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="142" y="171"/>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
     <resources>
-        <image name="15726932_10154699469851083_2188114426628932004_n" width="958" height="959"/>
+        <image name="BearMan" width="958" height="959"/>
         <image name="Love-you" width="429" height="137"/>
     </resources>
 </document>
